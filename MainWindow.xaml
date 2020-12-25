@@ -111,14 +111,13 @@
                                 <Image Source="/Assets/sms.png" Stretch="Uniform" Width="35"/>
                             </Button.Content>
                         </Button>
-                        <Button Grid.Row="3" Background="Transparent" Style="{DynamicResource menuButtonTemplate }">
+                        <Button Grid.Row="3" Background="Transparent" BorderThickness="0" Style="{DynamicResource menuButtonTemplate }">
                             <Button.Content>
                                 <Image Source="/Assets/settings.png" Stretch="Uniform" Width="35"/>
                             </Button.Content>
                         </Button>
-                        <Button Grid.Row="4" Background="Transparent" Style="{DynamicResource menuButtonTemplate }">
-                        </Button>
-                        <Button Grid.Row="5" Background="Transparent" Style="{DynamicResource menuButtonTemplate }">
+
+                        <Button Grid.Row="5" Background="Transparent"  BorderThickness="0" Style="{DynamicResource menuButtonTemplate }">
                             <Button.Content>
                                 <Image Source="/Assets/cloud.png" Stretch="Uniform" Width="35"/>
                             </Button.Content>

@@ -6,13 +6,10 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="applogoexample.png" />
-    <None Remove="Assets\applogoexample.png" />
-  </ItemGroup>
+
 
   <ItemGroup>
-    <Resource Include="Assets\applogoexample.png" />
+    <Resource Include="Assets\*.png" />
   </ItemGroup>
 
 </Project>
